@@ -5,14 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Willa</title>
+    <link rel="stylesheet" href="main.css">
     <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
     <script>dayjs().format()</script>
-    <style>
-      body {font-family: monospace;}
-      ul {font-family: helvetica;}
-      img {display: block;margin-left: auto;margin-right: auto;height:80vh;}
-      h2 {text-align: center;}
-    </style>
   </head>
   <body>
     <br>
@@ -20,10 +15,8 @@
     <div>
       <img src="Willa2.jpg"/>
     </div>
+    <script src="app.js"></script>
     <script>
-      const date1 = dayjs();
-      var weeks = date1.diff('2021-06-18', 'week');
-      var text_out = 'Willa is now ' + weeks + ' weeks old.';
       document.getElementById('target').textContent = text_out;
     </script>
   </body>

@@ -8,7 +8,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 80vh;
 }
 h2 {
   text-align: center;
 }
+
