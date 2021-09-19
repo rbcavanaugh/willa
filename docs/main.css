@@ -19,10 +19,24 @@ h1 {
   margin-right: auto;
 }
 
-button {
-  display: block;
+a.button1{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  font-size:1.5em;
+  border:3px solid #000000;
+  padding:5px;
+  margin-top:10px;
+  border-radius:5px;
+  text-decoration:none;
+  color:#000000;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+.center {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+  text-align:center;
 }
 
