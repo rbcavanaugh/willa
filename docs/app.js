@@ -13,11 +13,11 @@ var num_pictures = 17
 var num = Math.floor(Math.random() * num_pictures + 1); 
 var randomimage = "Willa" + num + ".jpg";
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function() {
-    navigator.serviceWorker
-      .register("/serviceWorker.js")
-      .then(res => console.log("service worker registered"))
-      .catch(err => console.log("service worker not registered", err))
-  })
-}
+//if ("serviceWorker" in navigator) {
+//  window.addEventListener("load", function() {
+//    navigator.serviceWorker
+//      .register("/serviceWorker.js")
+//      .then(res => console.log("service worker registered"))
+//      .catch(err => console.log("service worker not registered", err))
+//  })
+// }
