@@ -8,9 +8,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 80vh;
+  max-height: 80vh;
+  max-width: 90%;
+  border-radius: 2%;
+  box-shadow: 4px 4px 4px;
 }
-h2 {
+h1 {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- start of web manifest -->
+      <link rel="manifest" href="/manifest.json">
+    <!-- end of web manifest -->
   <title>Willa</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
@@ -11,13 +14,14 @@
   </head>
   <body>
     <br>
-    <h2 id='target'></h2>
+      <h1 id='target'></h1>
     <div>
-      <img src="Willa2.jpg"/>
+      <img src="" alt="Whoops" id='pic'/>
     </div>
     <script src="app.js"></script>
     <script>
       document.getElementById('target').textContent = text_out;
+      document.getElementById('pic').src=randomimage;
     </script>
   </body>
 </html>
