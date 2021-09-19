@@ -11,7 +11,7 @@ var text_out = 'Willa is ' + weeks + ' weeks, ' + days + word_day + ' old.';
 
 var num_pictures = 17
 var num = Math.floor(Math.random() * num_pictures + 1); 
-var randomimage = "images/Willa" + num + ".jpg";
+var randomimage = "Willa" + num + ".jpg";
 
 
 if ("serviceWorker" in navigator) {
