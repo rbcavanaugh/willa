@@ -8,4 +8,4 @@ First, I built a {shiny} app to remind me how old Willa is. Being complete overk
 
 <img src="screenshot.png"
      alt="Willa screenshot"
-     style="width: 60%; margin-left: auto; margin-right:auto;margin-top:20px;" />
+     style="width: 30%; display:block;margin-left: auto; margin-right:auto;margin-top:20px;" />
