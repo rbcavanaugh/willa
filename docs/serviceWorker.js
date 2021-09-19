@@ -1,6 +1,5 @@
 const staticDevWilla = "dev-willa-site-v1"
 const assets = [
-  "/",
   "index.html",
   "main.css",
   "app.js",
