@@ -13,7 +13,6 @@ var num_pictures = 17
 var num = Math.floor(Math.random() * num_pictures + 1); 
 var randomimage = "Willa" + num + ".jpg";
 
-
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
