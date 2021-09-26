@@ -9,7 +9,7 @@ if (days>1){
 
 var text_out = 'Willa is ' + weeks + ' weeks, ' + days + word_day + ' old.';
 
-var num_pictures = 17
+var num_pictures = 27
 var num = Math.floor(Math.random() * num_pictures + 1); 
 var randomimage = "Willa" + num + ".jpg";
 
