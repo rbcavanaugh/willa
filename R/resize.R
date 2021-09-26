@@ -20,12 +20,12 @@ replace_filename <- function(path){
 
 for(x in 1:length(pages)) {
   
-  file <- load.image(pages[1])
+  file <- load.image(pages[x])
   
   resized <- imresize(file,
                       scale = 0.30)
 
-  new_file_path = replace_filename(pages[1])
+  new_file_path = replace_filename(pages[x])
   
   save.image(resized,
              file = gsub("JPG", "jpg", paste(new_file_path)))
